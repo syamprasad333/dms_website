@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .about{
+            background-color:blanchedalmond;
+            padding: 10px;
+            padding-top: 5px;
+            margin: 10px;
+        }
+        .master{
+            background-color: rgb(152, 208, 209);
+            padding: 10px;
+            margin: 10px;
+        }
+        .admissions{
+            text-decoration: none;color: white;
+        }
+        .f ul,.t ul,.menu ul{
+            margin:0;
+            padding:0;
+            
+        }
+         .f ul,.t ul,.menu ul {
+            display:flex;
+            list-style-type: none;
+            gap:20px;
+            background-color: rgb(165, 165, 165);
+            padding:15px;
+        }
+        .f,.t {
+            display:none;
+            position:absolute;
+            z-index:1;
+        
+        }
+        a {
+           text-decoration: none;
+           color:black;
+           padding:20px;
+           font-weight:bold;
+        }
+        .f ul,.t ul {
+            text-decoration: none;
+           padding: 10px;
+           margin: 15px;
+           color:black;
+           font-weight: bold;
+           display:block;
+        }
+        .active a,.f ul li a:hover,.t ul li a:hover,.menu ul li a:hover{
+            background-color: rgb(68, 68, 68);
+            color:aliceblue; 
+            transition: 0.25s;   
+        }    
+        .fli:hover .f,.tt:hover .t {
+            display:block;
+        }
+        .f ul li,.t ul li{
+            margin: 15px;
+        }
+        .f a,.t a{
+            padding:10px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr><img src="./logo_img1.jpg" width="1200px"></tr>
+        <div class="width-100 top-header">
+            <div class="container">
+                <div class="width-100">
+                    <b class="news-list"> NEWS :</b>
+                    <marquee class="headquote">MY SCHOOL: Daniel memorial E.M.High school is a symbol of intelligence and atticate</marquee>
+                </div>
+            </div>
+        </div>
+        <div class="menu">
+            <ul>
+                <li class="active"><a href='#'>HOME</a></li>
+                <li class="fli"><a href='#'>FACILITIES</a>
+                <div class="f">
+                    <ul>
+                        <li><a href='./labs_fac.html'>LABS</a></li>
+                        <li><a href='./library_fac.html'>LIBRARY</a></li>
+                        <li><a href='./sports_fac.html'>SPORTS</a></li>
+                        <li><a href='./bus_fac.html'>BUS FACILITY</a></li>
+                        <li><a href='./hostels.html'>HOSTELS</a></li>
+                    </ul> 
+                </div></li>
+                <li class="tt"><a href='#'>TIME-TABLE</a>
+                   <div class="t">
+                    <ul>
+                        <li><a href='./timetable_classes.html'>CLASSES</a></li>
+                        <li><a href='./timetable_teachers.html'>TEACHERS</a></li>
+                    </ul>                                           
+                   </div>
+                </li>
+                <li><a href='./fee_structure.html'>FEE STRUCTURE</a></li>
+                <li><a href='./events.html'>EVENTS</a></li>
+                <li><a href='./teachers_info.html'>TEACHERS INFO</a></li>
+                <li><a href='./contact_us.html'>CONTACT US</a></li>
+            </ul>
+            </div>
+            <table width="100%" style="margin-bottom: -30px;margin-top: -10px;">
+                <tr>
+                    <td style="text-align: center;"><h2><i>WISDOM</i></h2></td>
+                    <td style="text-align: center;"><h2><i>LOVE</i></h2></td>
+                    <td style="text-align: center;"><h2><i>SERVICE</i></h2></td>
+                </tr>
+            </table>
+            <div class="about">
+                <h2><u>ABOUT US</u><span style="text-align: right;"><button style="background-color:rgba(85, 81, 81, 0.767);color: white;cursor: pointer;border: none;padding-top: 10px;padding-bottom: 10px;padding-left: 0;padding-right: 0;margin-left: 1100px;margin-top: 5px;margin-bottom: 5px;"><a class="admissions" href="https://forms.gle/taKBhuaZCQD8kMEh8">ADMISSIONS</a></button></span></h3>
+                <p>
+                    Our "Daniel Memorial E.M. School" is an organization that has been successful in shaping many students in our style for generations and making them educated, leaders and proficient in various fields. In these days when marks and ranks are considered as the measure of student's ability, we have cured such policies and stereotypes by adopting contemporary teaching methods and forgetting humanistic values. Nurturing the all-round development of the student Our main purpose is to strive to achieve.<br><b>The following points mentioned are the specialities of our school:</b><ul><li>Management whose main objective is to make the most valuable education accessible to all.</li>
+                          <li>With qualification, experience and dedication, they always seek the welfare of students A teaching team whose main objective is development.</li><li>Managing the classroom creatively and with special care where the future of Sri Vidyarthi is shaped.
+                    </li><li>Lab & Library facility to enhance the knowledge and understanding skills of the students.</li><li>Computer education from primary classes in accordance with current technology and a fun playground that enhances mental and physical development of students.
+                    </li><li>To make the students proficient in speaking English right from the primary level.
+                    </li><li>Preparing our students for all competitive exams.</li><li>Organizing games, creativity, cultural activities, no bag day for physical and mental development.</li><li>Bus/van facility is available.</li><li>Activity Based Learning is our specialty.</li><li>Spacious well-equipped classrooms and school premises
+                    </li></ul>
+                </p>
+            </div>
+            <div class="container" style="height: 800%;">
+                <!-- Slider main container -->
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"><img src="./slide_img1.jpg" height="800"></div>
+              <div class="swiper-slide"><img src="./slide_img2.jpg" width="100" height="800"></div>
+              <div class="swiper-slide"><img src="./slide_img3.jpg" width="100" height="800"></div>
+              ...
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          
+          </div>
+              </div>
+              <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+              <script>
+                const swiper = new Swiper('.swiper', {
+                  autoplay: {
+                    delay: 3000,
+                    disableOnInteraction: false,
+                  },
+            loop: true,
+            
+            pagination: {
+              el: '.swiper-pagination',
+            },
+          
+            navigation: {
+              nextEl: '.swiper-button-next',
+              prevEl: '.swiper-button-prev',
+            },
+          
+            
+          });
+              </script>
+        <tr><h1 style="text-align: center;"><i>44 YEARS OF EXCELLENCE!</i></h1></tr>
+        <div class="master">
+            <h2><u>Director of Daniel Memorial E.M.High School</u></h2>
+            <p>
+                <img src="./principal_img.png" style="float:left; height:200px;width:300px;margin-right: 10px;margin-left: 10px;">
+                Sri Daniel, an Indo-american entrepreneur, philanthropist hails from Velvadam, a village in the Mylavaram mandal of Krishna District, Andhra Pradesh. A meritorious student throughout his academic career, he graduated from Osmania University with a Gold medal in B.E in Chemical Engineering. Soon after, he went to the University of California at Berkeley on a scholarship in 1960 and completed MS in Chemical Engineering.A man of boundless energy and ideas, he envisioned himself in the role of an entrepreneur in the hotel and real estate business. Within a few decades, through sheer hard work and determination, he was successful in establishing a flourishing business empire. A man with considerable compassion and generosity, he took immense pleasure in doing many acts of charity and philanthropy that benefited his beloved place of birth and its people. He set up Lakireddy Bali Reddy Charitable Trust, a non-profit organization fully funded by him in order to channelize the multi-faceted philanthropic activities towards the socio-economic and educational development of this region of Krishna District. A man of boundless energy and ideas, he envisioned himself in the role of an entrepreneur in the hotel and real estate business. Within a few decades, through sheer hard work and determination, he was successful in establishing a flourishing business empire. A man with considerable compassion and generosity, he took immense pleasure in doing many acts of charity and philanthropy that benefited his beloved place of birth and its people. He set up Lakireddy Bali Reddy Charitable Trust, a non-profit organization fully funded by him in order to channelize the multi-faceted philanthropic activities towards the socio-economic and educational development of this region of Krishna District. He strived to improve the lot of the poor and helpless as well.A man of boundless energy and ideas, he envisioned himself in the role of an entrepreneur in the hotel and real estate business. Within a few decades, through sheer hard work and determination, he was successful in establishing a flourishing business empire. A man with considerable compassion and generosity, he took immense pleasure in doing many acts of charity and philanthropy that benefited his beloved place of birth and its people. He set up Lakireddy Bali Reddy Charitable Trust, a non-profit organization fully funded by him in order to channelize the multi-faceted philanthropic activities towards the socio-economic and educational development of this region of Krishna District. He strived to improve the lot of the poor and helpless as well.
+            </p></div>
+                <table><td style="padding-right: 100px; vertical-align: top;padding-right:250px;"><h2><u>ADDRESS:</u></h2>
+                    <P style="margin-bottom: 30px;">Chennai - Srikakulam Hwy, Epuru, Hanuman Junction, Andhra Pradesh 521105.</P>
+                    <img src="./govt_img.jpeg" height="300px" width="500px">
+                    </td>
+                    <td><h2><u>MAP:</u></h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3822.7937034517427!2d80.97034067514812!3d16.63711958412777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a360deef351091f%3A0x7617dea0893518bd!2sDaniel%20Memorial%20School!5e0!3m2!1sen!2sin!4v1696070141668!5m2!1sen!2sin" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </td> 
+                </table>
+    </table>
+</body>
+</html>
